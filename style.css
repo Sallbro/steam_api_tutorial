@@ -264,7 +264,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  z-index: 11 !important;
+  z-index: 12 !important;
   white-space: nowrap;
   transition: 0.5s;
 }
@@ -529,6 +529,7 @@ menu ul li .fa {
   padding: 1rem;
   border-radius: 10px;
   transition: 0.5s;
+  z-index: 3;
 }
 
 .RapidAPI img {
@@ -914,14 +915,14 @@ header article p:nth-child(4)::before {
   width: 100%;
   background-color: var(--white);
   position: relative;
-  z-index: 11;
+  z-index: 2;
 }
 
 .division_3 article {
   background-color: var(--primary);
   width: 90%;
   margin: auto;
-  z-index: 11 !important;
+  z-index: 2 !important;
   position: relative;
   top: 3rem;
   border-radius: 10px;
@@ -1423,7 +1424,7 @@ pre {
   right: 2px;
   float: right;
   position: absolute;
-  z-index: 999;
+  z-index: 2;
 }
 
 /* single product output */
@@ -2614,3 +2615,34 @@ pre {
 }
 
 /* search product  */
+
+.api_head {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single_api {
+  margin: 0px;
+  padding: 0px 5px;
+  font-size: x-small;
+  cursor: pointer;
+}
+.single_api a{
+  margin: 0px;
+  padding: 0px 5px;
+  font-size: x-small;
+  cursor: pointer;
+  text-decoration: none;
+}
+.api_name {
+  display: flex;
+}
+
+.api_name span {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  padding: 0px 3px 0px 0px;
+}
